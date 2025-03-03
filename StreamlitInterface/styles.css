@@ -1,0 +1,28 @@
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.header-bar {
+    background-color: #0073e6;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    animation: fadeIn 1s ease-out;
+}
+
+.upload-box, .data-table, .buttons {
+    animation: fadeIn 1s ease-out;
+}
+
+.download-buttons {
+    animation: slideIn 1s ease-out;
+}
